@@ -30,3 +30,20 @@
     color: darkorange;
     font: larger;
 }
+
+  table, td, th {
+                border: solid 1px ;
+                color: darkblue;
+                margin: 40px;
+                padding: 8px;
+                row-gap: 3px;
+
+        text-align: center;}
+        th{
+            background-color: chartreuse;
+        }
+      
+        
+        tr:nth-child(even)
+       {background-color:darkgray;
+    }
