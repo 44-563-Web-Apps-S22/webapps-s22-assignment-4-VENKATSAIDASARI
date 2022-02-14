@@ -2,6 +2,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
     color: black;
+    
 }
 .direction{
     font-family: sans-serif;
@@ -47,3 +48,11 @@
         tr:nth-child(even)
        {background-color:darkgray;
     }
+    .name:hover
+    {
+        height: 40px;
+        border: inset;
+        background-color: rgb(243, 130, 209);
+        text-shadow: 5px 4px 3px rgb(33, 34, 31);
+    }
+    
