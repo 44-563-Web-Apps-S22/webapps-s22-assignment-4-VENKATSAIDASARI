@@ -55,4 +55,26 @@
         background-color: rgb(243, 130, 209);
         text-shadow: 5px 4px 3px rgb(33, 34, 31);
     }
+    ul.navbar-horizontal{
+        list-style-type: none;
+        margin: 20px;
+        padding: 0;
+    }
+    ul.navbar-horizontal li {
+        float:left;
+        background-color:rgb(180, 202, 56);
+    }
+    ul.navbar-horizontal a{
+        color:black;
+        display:block;
+        padding:20px;
+        margin:10px;
+    }
+    ul.navbar-horizontal a:hover{
+        background-color:bisque;
+        color:azure;
+    }
+    .icon{
+        float: left;
+    }
     
